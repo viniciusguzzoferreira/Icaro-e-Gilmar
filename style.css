@@ -3,7 +3,7 @@
 
 :root {
     --laranja-claro: #FF862A;
-}
+ }
 
 body {
     font-size: 1rem;
@@ -137,15 +137,13 @@ h2 {
 .form-control {
     background-color: #F1EDEF;
 }
-
 .menu-acessibilidade{
     position: fixed;
     top:2rem;
     right:20px;
     z-index: 1000;
 }
-
-.rotacao-botao{ 
+.rotacao-botao{
     transform: rotate(-90deg);
     transform-origin: right center;
 }
@@ -158,4 +156,7 @@ h2 {
 
 .opcoes-acessibilidade button{
     margin-bottom: 5px;
+}
+.apresenta-lista{
+    display: none;
 }
